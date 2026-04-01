@@ -6050,6 +6050,33 @@
   display: flex;
 }
 
+.body-2 .gallery-header-desktop {
+  padding-top: 72px;
+}
+
+.body-2 .div-block-9 {
+  grid-column-gap: clamp(32px, 4vw, 72px);
+  grid-row-gap: clamp(32px, 4vw, 72px);
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.body-2 .frame-704 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex: 1;
+  width: auto;
+  max-width: 520px;
+}
+
+.body-2 .frame-707 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .div-block-10 {
   grid-column-gap: 23.125vw;
   grid-row-gap: 23.125vw;
