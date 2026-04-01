@@ -7693,3 +7693,84 @@
   font-style: italic;
   font-display: swap;
 }
+
+.body-legal {
+  background-color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-weight: 300;
+}
+
+.legal-content {
+  border-bottom: 1px solid #8b8b8b;
+  justify-content: center;
+  width: 100%;
+  padding: 72px 64px 96px;
+  display: flex;
+}
+
+.legal-wrap {
+  grid-column-gap: 28px;
+  grid-row-gap: 28px;
+  flex-direction: column;
+  width: min(100%, 1080px);
+  display: flex;
+}
+
+.legal-updated {
+  color: #8b8b8b;
+  font-size: clamp(16px, 1.1vw, 18px);
+  line-height: 150%;
+  margin: 0;
+}
+
+.legal-title {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: clamp(56px, 7vw, 132px);
+  font-weight: 300;
+  line-height: 90%;
+  margin: 0;
+}
+
+.legal-section {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  flex-direction: column;
+  display: flex;
+}
+
+.legal-heading {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: clamp(20px, 1.8vw, 30px);
+  font-weight: 300;
+  line-height: 140%;
+  margin: 0;
+}
+
+.legal-text {
+  color: #f4f4f4;
+  max-width: 920px;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: clamp(17px, 1.35vw, 22px);
+  font-weight: 300;
+  line-height: 160%;
+  margin: 0;
+}
+
+.legal-link {
+  color: #f4f4f4;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 991px) {
+  .legal-content {
+    padding: 40px 20px 56px;
+  }
+
+  .legal-wrap {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+  }
+}
