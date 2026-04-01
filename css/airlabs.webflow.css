@@ -1,0 +1,7668 @@
+@font-face {
+  font-family: Neue Haas Grotesk Display Pro;
+  src: url('../fonts/NeueHaasDisplayBlackItalic.ttf') format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk Display Pro;
+  src: url('../fonts/NeueHaasDisplayBlack.ttf') format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk Display Pro;
+  src: url('../fonts/NeueHaasDisplayBold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk Display Pro;
+  src: url('../fonts/NeueHaasDisplayBoldItalic.ttf') format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk Display Pro;
+  src: url('../fonts/NeueHaasDisplayLight.ttf') format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk Display Pro;
+  src: url('../fonts/NeueHaasDisplayLightItalic.ttf') format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk Display Pro;
+  src: url('../fonts/NeueHaasDisplayThin.ttf') format("truetype"), url('../fonts/NeueHaasDisplayXThin.ttf') format("truetype"), url('../fonts/NeueHaasDisplayXXThin.ttf') format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk Display Pro;
+  src: url('../fonts/NeueHaasDisplayRomanItalic.ttf') format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk Display Pro;
+  src: url('../fonts/NeueHaasDisplayThinItalic.ttf') format("truetype"), url('../fonts/NeueHaasDisplayXXThinItalic.ttf') format("truetype"), url('../fonts/NeueHaasDisplayXThinItalic.ttf') format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk Display Pro;
+  src: url('../fonts/NeueHaasDisplayMediu.ttf') format("truetype"), url('../fonts/NeueHaasDisplayRoman.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk Display Pro;
+  src: url('../fonts/NeueHaasDisplayMediumItalic.ttf') format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+.w-checkbox {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  display: block;
+}
+
+.w-checkbox:before {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-checkbox:after {
+  content: " ";
+  clear: both;
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-checkbox-input {
+  float: left;
+  margin: 4px 0 0 -20px;
+  line-height: normal;
+}
+
+.w-checkbox-input--inputType-custom {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-checked {
+  background-color: #3898ec;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: #3898ec;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-focus {
+  box-shadow: 0 0 3px 1px #3898ec;
+}
+
+.navbar-2 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 0 solid #8b8b8b;
+  border-bottom-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  padding: 30px 64px;
+  display: flex;
+}
+
+.container {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.column {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.vectors-wrapper {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 138.769px;
+  height: 24px;
+  display: flex;
+}
+
+.column-2 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.frame-22 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #111112;
+  border-radius: 20px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  display: flex;
+}
+
+.text {
+  color: #f4f4f4;
+  text-align: center;
+  width: 120px;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-19 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #111112;
+  border: 1px solid #8b8b8b;
+  border-radius: 20px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+  display: flex;
+}
+
+.column-3 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  display: flex;
+}
+
+.button {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #08080d;
+  border-radius: 20px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 30px;
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-2 {
+  color: #08080d;
+  text-align: center;
+  width: 80px;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.body {
+  clear: none;
+  background-color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+}
+
+.frame-23 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 1px #8b8b8b;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-18 {
+  grid-column-gap: 129px;
+  grid-row-gap: 129px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 604px;
+  padding-right: 0;
+  display: flex;
+}
+
+.text-3 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 140px;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.text-4 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-20 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.frame-6 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-5 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-5 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-2 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+
+.frame-3 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 723px;
+  height: 100%;
+  padding: 24px;
+  display: flex;
+}
+
+.rectangle-3 {
+  object-fit: cover;
+  width: 100%;
+}
+
+.button-2 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #111112;
+  border: 1px solid #111112;
+  border-radius: 40px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.div-block {
+  width: 300px;
+  height: 370px;
+}
+
+.hero {
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.div-block-2 {
+  width: 50%;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+.frame-24 {
+  grid-column-gap: 129px;
+  grid-row-gap: 129px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 63px;
+  padding-left: 69px;
+  padding-right: 0;
+  display: flex;
+}
+
+.text-6 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 120px;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.text-7 {
+  color: #f4f4f4;
+  width: 650px;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 33px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-25 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 71%;
+  max-width: 723px;
+  height: 100%;
+  margin-left: 114px;
+  padding: 24px;
+  display: flex;
+}
+
+.frame-16 {
+  grid-column-gap: 87px;
+  grid-row-gap: 87px;
+  background-color: #111112;
+  border: 1px solid #8b8b8b;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+}
+
+.deepmind-dxtkv8qlay0-unsplash-1 {
+  object-fit: cover;
+  width: 660px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.frame-17 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 1045px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 44px;
+  font-weight: 300;
+  display: flex;
+}
+
+.text-8 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 140px;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.text-9 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-26 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.button-3 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #08080d;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-10 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-27 {
+  border: 1px solid #8b8b8b;
+  border-style: solid none;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 1153px;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-28 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 800px;
+  height: 953px;
+  font-size: 14px;
+  font-weight: 300;
+  display: flex;
+}
+
+.text-11 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 750%;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-29 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  font-weight: 300;
+  display: flex;
+}
+
+.text-12 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 140%;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.text-13 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 200%;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-30 {
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 833px;
+  display: flex;
+}
+
+.text-14 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.vectors-wrapper-3 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: center;
+  align-items: center;
+  width: 0;
+  height: 0;
+  display: flex;
+}
+
+.frame-4 {
+  grid-column-gap: 190px;
+  grid-row-gap: 190px;
+  background-color: #111112;
+  border: 1px solid #8b8b8b;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1920px;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-31 {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.insideboats-8 {
+  object-fit: cover;
+}
+
+.frame-32 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 120px;
+  display: flex;
+}
+
+.text-15 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 68px;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.text-16 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 29px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-15 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.frame-33 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-17 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-34 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  padding: 14px;
+  display: flex;
+}
+
+.frame-35 {
+  grid-column-gap: 225px;
+  grid-row-gap: 225px;
+  background-color: #08080d;
+  border: 1px solid #8b8b8b;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-36 {
+  grid-column-gap: 129px;
+  grid-row-gap: 129px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-18 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 140px;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.text-19 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.contact-5 {
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+  background-color: #08080d;
+  border: 0 solid #8b8b8b;
+  border-top-width: 1px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1920px;
+  padding: 112px 64px;
+  display: flex;
+}
+
+.content {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 643px;
+  display: flex;
+}
+
+.section-title {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.content-2 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-20 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 88px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.form {
+  grid-column-gap: 36px;
+  grid-row-gap: 36px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 875px;
+  display: flex;
+}
+
+.input {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-21 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.text-input {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  border: 0 solid #f4f4f4;
+  border-bottom-width: 1px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+}
+
+.placeholder {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.text-input-2 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 0 solid #f4f4f4;
+  border-bottom-width: 1px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+}
+
+.text-area {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 0 solid #f4f4f4;
+  border-bottom-width: 1px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 875px;
+  height: 180px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+}
+
+.vectors-wrapper-4 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  position: relative;
+}
+
+.checkbox {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.vectors-wrapper-5 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  display: flex;
+}
+
+.label {
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+  color: #f4f4f4;
+  justify-content: space-between;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+  display: flex;
+}
+
+.button-4 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  border-radius: 40px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-22 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.label-1 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: underline;
+  display: block;
+}
+
+.footer-3 {
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+  background-color: #08080d;
+  border: 0 solid #8b8b8b;
+  border-top-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1920px;
+  padding: 80px 64px 40px;
+  display: flex;
+}
+
+.content-3 {
+  grid-column-gap: 64px;
+  grid-row-gap: 64px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.column-4 {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.brandmark-design-1 {
+  object-fit: cover;
+}
+
+.content-4 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.social-links {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.vectors-wrapper-6 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  display: flex;
+}
+
+.credits {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-23 {
+  color: #f4f4f4;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.footer-links {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.navbar-2-2 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 0 solid #8b8b8b;
+  border-bottom: 1px #8b8b8b;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.5625vw 3.33333vw;
+  display: flex;
+  position: static;
+}
+
+.container-2 {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.column-5 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.vectors-wrapper-7 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 138.769px;
+  height: 24px;
+  display: flex;
+}
+
+.column-6 {
+  grid-column-gap: 2.08333vw;
+  grid-row-gap: 2.08333vw;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.frame-37 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #111112;
+  border-radius: 20px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 4px 24px;
+  display: flex;
+}
+
+.frame-37.home {
+  border: 1px #111112;
+  padding: .208333vw 1.25vw;
+}
+
+.frame-37.home:hover {
+  border-style: none;
+  border-color: #8b8b8b;
+}
+
+.text-24 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: .9375vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-38 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #111112;
+  border: 1px solid #8b8b8b;
+  border-radius: 20px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 4px 24px;
+  display: flex;
+}
+
+.column-7 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  display: flex;
+}
+
+.button-5 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #08080d;
+  border-radius: 20px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: .416667vw 1.5625vw;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-25 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: .9375vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-39 {
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+  border: 1px solid #8b8b8b;
+  border-style: solid none;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 54px 64px 100px;
+  display: flex;
+}
+
+.frame-40 {
+  grid-column-gap: 90px;
+  grid-row-gap: 90px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 580px;
+  display: flex;
+}
+
+.text-26 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 810%;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.text-27 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 206%;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-41 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.frame-42 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 48px;
+  font-size: 52px;
+  display: flex;
+}
+
+.text-28 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.14583vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-43 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 2.55208vw;
+  height: 2.55208vw;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-8 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: .78125vw;
+  max-width: none;
+  height: .78125vw;
+  display: flex;
+}
+
+.frame-44 {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 540px;
+  max-width: 723px;
+  height: 610px;
+  padding: 24px;
+  display: flex;
+}
+
+.rectangle-4 {
+  object-fit: cover;
+}
+
+.button-6 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #111112;
+  border: 1px solid #111112;
+  border-radius: 40px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.navbar {
+  z-index: 999;
+  background-color: #08080d;
+  position: sticky;
+  top: 0;
+}
+
+.frame-45 {
+  grid-column-gap: 21px;
+  grid-row-gap: 21px;
+  background-color: #111112;
+  border: 1px solid #8b8b8b;
+  border-style: solid none;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  display: flex;
+}
+
+.deepmind-dxtkv8qlay0-unsplash-2 {
+  z-index: 2;
+  object-fit: cover;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.frame-46 {
+  z-index: 1;
+  grid-column-gap: 6vh;
+  grid-row-gap: 6vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 737px;
+  height: 500px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  display: flex;
+  position: relative;
+}
+
+.text-29 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 540%;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.text-30 {
+  color: #f4f4f4;
+  padding-right: 45px;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 166%;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-47 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-wrap: wrap;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 35px;
+  display: flex;
+}
+
+.button-7 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #08080d;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-31 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.mint {
+  width: 100%;
+}
+
+.hover-gallery {
+  width: 100%;
+  height: 100%;
+  margin-right: -36px;
+  padding: 9px 9px 0;
+}
+
+.image {
+  z-index: 4;
+  width: 100%;
+  position: relative;
+}
+
+.image-2 {
+  z-index: 3;
+  filter: brightness(30%);
+  background-color: #0000;
+  width: 100%;
+  position: relative;
+  bottom: 621px;
+}
+
+.image-2:hover {
+  z-index: 5;
+  filter: none;
+}
+
+.image-3 {
+  z-index: 2;
+  filter: brightness(30%);
+  width: 100%;
+  position: relative;
+  top: -1247px;
+}
+
+.image-3:hover {
+  z-index: 5;
+  filter: none;
+}
+
+.image-4 {
+  z-index: 1;
+  filter: brightness(30%);
+  width: 100%;
+  position: relative;
+  top: -1876px;
+}
+
+.image-4:hover {
+  z-index: 5;
+  filter: none;
+}
+
+.frame-48 {
+  grid-column-gap: 190px;
+  grid-row-gap: 190px;
+  background-color: #111112;
+  border: 1px solid #8b8b8b;
+  border-style: solid none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1920px;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-49 {
+  grid-column-gap: 90px;
+  grid-row-gap: 90px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.insideboats-8-2 {
+  object-fit: cover;
+  width: 270px;
+  height: 320px;
+}
+
+.frame-50 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 930px;
+  display: flex;
+}
+
+.text-32 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 390%;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.text-33 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 199%;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.row {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.text-34 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-52 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-35 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-53 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  padding: 14px;
+  text-decoration: none;
+  display: flex;
+}
+
+.frame-54 {
+  grid-column-gap: 225px;
+  grid-row-gap: 225px;
+  background-color: #08080d;
+  border: 1px solid #8b8b8b;
+  border-style: solid none;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-55 {
+  grid-column-gap: 129px;
+  grid-row-gap: 129px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-36 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 810%;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.text-37 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 260%;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.contact-desktop {
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+  background-color: #08080d;
+  border: 1px solid #8b8b8b;
+  border-left: 0 #8b8b8b;
+  border-right: 0 #8b8b8b;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 112px 64px;
+  display: flex;
+  overflow: hidden;
+}
+
+.content-5 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 643px;
+  display: flex;
+}
+
+.section-title-2 {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.content-6 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-38 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 88px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.text-39 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.form-2 {
+  grid-column-gap: 36px;
+  grid-row-gap: 36px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 875px;
+  display: flex;
+}
+
+.input-2 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-input-3 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  border: 0 solid #f4f4f4;
+  border-bottom-width: 1px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+}
+
+.placeholder-2 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.text-input-4 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 0 solid #f4f4f4;
+  border-bottom-width: 1px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+}
+
+.text-area-2 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 0 solid #f4f4f4;
+  border-bottom-width: 1px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 875px;
+  height: 180px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+}
+
+.vectors-wrapper-9 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  position: relative;
+}
+
+.checkbox-2 {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.vectors-wrapper-10 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  display: flex;
+}
+
+.label-2 {
+  color: #f4f4f4;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+  display: flex;
+}
+
+.button-8 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  border-radius: 40px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.label-3 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.footer-desktop {
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+  background-color: #08080d;
+  border: 0 solid #8b8b8b;
+  border-top: 1px #8b8b8b;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 80px 64px 40px;
+  display: flex;
+}
+
+.content-7 {
+  grid-column-gap: 64px;
+  grid-row-gap: 64px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.column-8 {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.brandmark-design-2 {
+  object-fit: cover;
+  width: 12.4479vw;
+  max-width: 100%;
+  height: 2.1875vw;
+  overflow: visible;
+}
+
+.content-8 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.social-links-2 {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.vectors-wrapper-11 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 2.29167vw;
+  height: 2.29167vw;
+  display: flex;
+}
+
+.credits-2 {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-40 {
+  color: #f4f4f4;
+  font-family: Montserrat, sans-serif;
+  font-size: .729167vw;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.footer-links-2 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.body-2 {
+  background-color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-weight: 300;
+}
+
+.gallery-header {
+  width: 100%;
+}
+
+.frame-56 {
+  grid-column-gap: 225px;
+  grid-row-gap: 225px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-57 {
+  grid-column-gap: 120px;
+  grid-row-gap: 120px;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1387px;
+  display: flex;
+}
+
+.text-41 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 930%;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-58 {
+  grid-column-gap: 52px;
+  grid-row-gap: 52px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 720px;
+  display: flex;
+}
+
+.text-42 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 190%;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-59 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-weight: 300;
+  display: flex;
+}
+
+.text-43 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-60 {
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.text-44 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.text-45 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.galery-wrapper {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-left: 64px;
+  padding-right: 64px;
+  display: flex;
+}
+
+.gallery-item {
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 270px;
+  height: 320px;
+  display: flex;
+}
+
+._13demarzo-15 {
+  object-fit: cover;
+  width: 100%;
+  height: 320px;
+}
+
+.text-46 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 230%;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+._13demarzo-15-2 {
+  opacity: .8;
+  object-fit: cover;
+}
+
+._13demarzo-15-3 {
+  object-fit: cover;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.body-3 {
+  background-color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-weight: 300;
+}
+
+._90-miles {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #08080d;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+}
+
+.column-9 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.text-47 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.button-9 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #08080d;
+  border-radius: 20px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-48 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+._90-miles-2 {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  border: 1px solid #8b8b8b;
+  border-style: solid none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 45px 64px 100px;
+  display: flex;
+}
+
+.heading {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1792px;
+  display: flex;
+}
+
+.text-49 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 680%;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.text-50 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.body-4 {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1792px;
+  display: flex;
+}
+
+.left {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 763px;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+._13demarzo-15-4 {
+  object-fit: cover;
+  width: 430px;
+  height: 430px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+._13demarzo-15-5 {
+  object-fit: cover;
+  width: 410px;
+  height: 410px;
+  position: absolute;
+  top: 1446px;
+  left: 131px;
+}
+
+.right {
+  grid-column-gap: 55px;
+  grid-row-gap: 55px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1029px;
+  display: flex;
+}
+
+.text-51 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 230%;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.frame-61 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 690px;
+  height: 480px;
+  display: flex;
+}
+
+.gallery-preview {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-62 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.text-52 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.frame-63 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.vectors-wrapper-12 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.mcb-on-reporting {
+  grid-column-gap: 348px;
+  grid-row-gap: 348px;
+  border: 1px solid #8b8b8b;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-64 {
+  grid-column-gap: 140px;
+  grid-row-gap: 140px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  display: flex;
+}
+
+.frame-621 {
+  grid-column-gap: 55px;
+  grid-row-gap: 55px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 820px;
+  max-width: 1792px;
+  display: flex;
+}
+
+.contact-5-3 {
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+  background-color: #08080d;
+  border: 0 solid #8b8b8b;
+  border-top-width: 1px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1920px;
+  padding: 112px 64px;
+  display: flex;
+}
+
+.content-9 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.text-53 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 88px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.placeholder-3 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.label-4 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.gallery-preview-2 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-622 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.button-10 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #08080d;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-54 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.frame-623 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.frame-624 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-55 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.frame-625 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-13 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+
+.frame-626 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.frame-627 {
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 290px;
+  height: 340px;
+  display: flex;
+}
+
+._13demarzo-15-6 {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.text-56 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+._13demarzo-15-7 {
+  opacity: .67;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+._13demarzo-15-8 {
+  opacity: .9;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.link-block {
+  border: 1px solid #111112;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.link-block:hover {
+  border-color: #8b8b8b;
+}
+
+.link-block.w--current {
+  border: 1px solid #8b8b8b;
+  border-radius: 20px;
+}
+
+.link-block-2, .link-block-3, .link-block-3.w--current, .link-block-4, .link-block-5, .link-block-6, .link-block-7, .link-block-8, .link-block-9, .link-block-10, .link-block-11, .link-block-12, .link-block-13 {
+  text-decoration: none;
+}
+
+.form-block {
+  width: 100%;
+}
+
+.submit-button {
+  color: #08080d;
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  padding: .416667vw 2.5vw;
+  font-size: 1.14583vw;
+  font-weight: 300;
+}
+
+.field-label {
+  color: #f4f4f4;
+  background-color: #0000;
+  margin-bottom: .260417vw;
+  font-size: 1.14583vw;
+  font-weight: 300;
+  line-height: 1.04167vw;
+}
+
+.form-item {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 1.875vw;
+  display: flex;
+}
+
+.text-field {
+  color: #f4f4f4;
+  background-color: #0000;
+  border: 1px #000;
+  border-bottom: 1px solid #f4f4f4;
+  padding-top: 1.25vw;
+  padding-bottom: 1.25vw;
+  font-size: 1.35417vw;
+  font-weight: 300;
+  line-height: 1.04167vw;
+}
+
+.textarea {
+  color: #f4f4f4;
+  background-color: #0000;
+  border: 1px #000;
+  border-bottom: 1px solid #f4f4f4;
+  padding-top: .625vw;
+  padding-bottom: 3.28125vw;
+  font-size: 1.35417vw;
+  font-weight: 300;
+}
+
+.checkbox-field {
+  grid-column-gap: .46875vw;
+  grid-row-gap: .46875vw;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: .260417vw;
+  padding-top: .9375vw;
+  padding-bottom: .9375vw;
+  padding-left: 1.04167vw;
+  display: flex;
+}
+
+.checkbox-label {
+  color: #f4f4f4;
+  margin-bottom: .260417vw;
+  font-size: .729167vw;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.link {
+  color: #f4f4f4;
+  text-decoration: underline;
+}
+
+.div-block-3 {
+  display: none;
+}
+
+.link-block-14, .link-block-15 {
+  text-decoration: none;
+}
+
+.mobile-navbar {
+  display: none;
+}
+
+.frame-628 {
+  grid-column-gap: 348px;
+  grid-row-gap: 348px;
+  border: 1px solid #8b8b8b;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-629 {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  font-weight: 300;
+  display: flex;
+}
+
+.text-57 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 930%;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-630 {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1792px;
+  display: flex;
+}
+
+.frame-631 {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 763px;
+  display: flex;
+}
+
+.frame-632 {
+  grid-column-gap: .416667vw;
+  grid-row-gap: .416667vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-58 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.text-59 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.frame-633 {
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.frame-634 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 876px;
+  height: 410px;
+  display: flex;
+}
+
+.frame-635 {
+  grid-column-gap: 54px;
+  grid-row-gap: 54px;
+  background-color: #111112;
+  border: 1px solid #8b8b8b;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 54px;
+  padding-bottom: 54px;
+  display: flex;
+}
+
+.deepmind-dxtkv8qlay0-unsplash-3 {
+  object-fit: cover;
+  width: 916px;
+  height: 916px;
+}
+
+.frame-636 {
+  grid-column-gap: 90px;
+  grid-row-gap: 90px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 21px 3px;
+  display: flex;
+}
+
+.text-60 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 420%;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.text-61 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 130%;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-637 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-wrap: wrap;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.button-11 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #08080d;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-62 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-638 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.frame-639 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-63 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-640 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 2.55208vw;
+  height: 2.55208vw;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-14 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: .78125vw;
+  max-width: none;
+  height: .78125vw;
+  display: flex;
+}
+
+.frame-641 {
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 42%;
+  height: 916px;
+  padding: 0 12px;
+  display: flex;
+}
+
+.text-64 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 5vw;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.text-65 {
+  color: #f4f4f4;
+  width: 100%;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-642 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-wrap: wrap;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-66 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-67 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.14583vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.div-block-5 {
+  position: static;
+}
+
+.link-2 {
+  color: #f4f4f4;
+  text-decoration: underline;
+}
+
+.link-3 {
+  color: #f4f4f4;
+}
+
+.image-6 {
+  width: 42%;
+  min-width: 0;
+  height: 98%;
+}
+
+.frame-643 {
+  grid-column-gap: 120px;
+  grid-row-gap: 120px;
+  border: 1px solid #8b8b8b;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-644 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 50%;
+  max-width: 876px;
+  height: 953px;
+  display: flex;
+}
+
+.text-68 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 120px;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-645 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  font-weight: 300;
+  display: flex;
+}
+
+.text-69 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.text-70 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.frame-646 {
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.frame-647 {
+  grid-column-gap: 28px;
+  grid-row-gap: 28px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.button-12 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #08080d;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-71 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-648 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-649 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-72 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-650 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-15 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: .78125vw;
+  max-width: none;
+  height: .78125vw;
+  display: flex;
+}
+
+.vectors-wrapper-16 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 94%;
+  display: flex;
+}
+
+.creator-info-desktop {
+  grid-column-gap: 190px;
+  grid-row-gap: 190px;
+  background-color: #111112;
+  border: 1px solid #8b8b8b;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-21 {
+  grid-column-gap: 36px;
+  grid-row-gap: 36px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.insideboats-8-3 {
+  object-fit: cover;
+  width: 21.875vw;
+  height: 21.875vw;
+}
+
+.frame-652 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 53.5938vw;
+  font-weight: 300;
+  display: flex;
+}
+
+.text-73 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-653 {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.frame-7 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.frame-654 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-74 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.14583vw;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.frame-655 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 2.55208vw;
+  height: 2.55208vw;
+  padding: 14px;
+  display: flex;
+}
+
+.social-links-3 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.vectors-wrapper-17 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 2vw;
+  height: 100%;
+  display: flex;
+}
+
+.ggrqo0jqzmeyvf-lsoqzi-1 {
+  object-fit: cover;
+  border-radius: 4px;
+  width: 2vw;
+  height: 100%;
+}
+
+.vectors-wrapper-18, .vectors-wrapper-19 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 2vw;
+  height: 100%;
+  display: flex;
+}
+
+.content-10 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 33.4896vw;
+  display: flex;
+  overflow: visible;
+}
+
+.vectors-wrapper-20 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 17.1875vw;
+  height: 9%;
+  display: flex;
+  overflow: visible;
+}
+
+.text-75 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.link-4, .link-5 {
+  color: #f4f4f4;
+}
+
+.gallery-desktop {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-left: 64px;
+  padding-right: 64px;
+  display: flex;
+}
+
+.frame-657 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.vectors-wrapper-21 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 19vw;
+  height: 19vw;
+  display: flex;
+}
+
+._90-miles-3 {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  border: 0 solid #8b8b8b;
+  border-bottom-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 100px 217px;
+  display: flex;
+}
+
+.heading-2 {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.text-76 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 140px;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-658 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.frame-659 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-77 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.frame-660 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-22 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+
+.body-5 {
+  grid-column-gap: 193px;
+  grid-row-gap: 193px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.right-2 {
+  grid-column-gap: 55px;
+  grid-row-gap: 55px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+}
+
+.text-78 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 130%;
+  text-decoration: none;
+}
+
+.text-79 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-661 {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+}
+
+._13demarzo-15-9 {
+  object-fit: cover;
+  width: 45%;
+  height: 100%;
+}
+
+._13demarzo-15-9.bottom {
+  width: 105%;
+}
+
+.these-cubans-are-incredibly-resourceful-as-necessary-to-the-journey-and-as-reflected-in-the-rafts-and-boats-often-assembled-from-inner-tubes-random-pieces-of-wood-and-plastic-household-supplies-etc-read-here-a-contextual-history-of-the-cuban-boat-people-written-by-nili-blanck-for-the-smithsonian-museum {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+._90-miles-is-a-post-photography-ai-reporting-project-by-mcb-curated-by-blockbird-exploring-historical-events-and-realities-of-cuban-life-that-have-since-1961-motivated-cubans-to-cross-the-90-miles-of-ocean-separating-havana-from-florida-1 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 130%;
+  text-decoration: underline;
+}
+
+.these-cubans-are-incredibly-resourceful-as-necessary-to-the-journey-and-as-reflected-in-the-rafts-and-boats-often-assembled-from-inner-tubes-random-pieces-of-wood-and-plastic-household-supplies-etc-read-here-a-contextual-history-of-the-cuban-boat-people-written-by-nili-blanck-for-the-smithsonian-museum-1 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.link-6, .link-7, .link-8 {
+  color: #f4f4f4;
+}
+
+.link-9 {
+  color: #f4f4f3;
+}
+
+.a-i-reporting {
+  height: 100%;
+}
+
+.mcb-on-reporting-2 {
+  grid-column-gap: 348px;
+  grid-row-gap: 348px;
+  border: 1px solid #8b8b8b;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 100px 217px;
+  display: flex;
+}
+
+.frame-662 {
+  grid-column-gap: 140px;
+  grid-row-gap: 140px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.text-80 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 140px;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-663 {
+  grid-column-gap: 55px;
+  grid-row-gap: 55px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-81 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.i-first-experimented-with-ai-using-dall-e-and-later-midjourney-the-results-seemed-too-fantastical-but-with-midjourney-4-and-5-both-used-in-90-miles-that-impression-began-to-change-as-with-the-recent-imagery-of-trump-that-went-viral-the-imagery-is-now-more-believable-more-real-and-it-is-important-to-understand-how-society-may-both-create-barriers-around-the-technology-and-use-it-to-our-advantage-i-feel-similarly-to-fred-ritchin-the-founding-director-of-the-documentary-photography-and-photojournalism-program-at-the-international-center-of-photography-when-he-said-there-are-things-that-artificial-intelligence-can-add-to-the-image-equation-which-can-be-very-useful-and-that-s-the-place-we-have-to-look {
+  color: #f4f4f4;
+  height: 100%;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.link-block-16 {
+  text-decoration: none;
+}
+
+.frame-664 {
+  grid-column-gap: 348px;
+  grid-row-gap: 348px;
+  border: 0 solid #8b8b8b;
+  border-bottom-width: 1px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-665 {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 2024px;
+  display: flex;
+}
+
+.text-82 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 140px;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-666 {
+  grid-column-gap: 193px;
+  grid-row-gap: 193px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1792px;
+  display: flex;
+}
+
+.frame-667 {
+  grid-column-gap: 120px;
+  grid-row-gap: 120px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+}
+
+.vectors-wrapper-23 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.frame-668 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-83 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-669 {
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out {
+  font-weight: 300;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-0 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 180%;
+  text-decoration: underline;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-1 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 180%;
+  text-decoration: none;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-2 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 180%;
+  text-decoration: none;
+}
+
+.text-84 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 140px;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-670 {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-671 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1078px;
+  font-weight: 300;
+  display: flex;
+}
+
+.text-85 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.text-86 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+._90-miles-is-a-post-photography-ai-reporting-project-by-mcb-curated-by-blockbird-exploring-historical-events-and-realities-of-cuban-life-that-have-since-1961-motivated-cubans-to-cross-the-90-miles-of-ocean-separating-havana-from-florida-2 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.link-10 {
+  color: #f4f4f4;
+  font-weight: 300;
+}
+
+.link-11 {
+  color: #f4f4f4;
+}
+
+.frame-672 {
+  grid-column-gap: 225px;
+  grid-row-gap: 225px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-673 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-87 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 7.5vw;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-674 {
+  grid-column-gap: 52px;
+  grid-row-gap: 52px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+  display: flex;
+}
+
+.text-88 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.91vw;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.frame-675 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.text-89 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.27vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-676 {
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-weight: 400;
+  display: flex;
+}
+
+.text-90 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.27vw;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.frame-677 {
+  grid-column-gap: 28px;
+  grid-row-gap: 28px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.frame-678 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.frame-679 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-91 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-680 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: .416667vw 2.5vw;
+  display: flex;
+}
+
+.text-92 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-681 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 18%;
+  height: 94%;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-24 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+._90-miles-is-a-post-photography-ai-reporting-project-by-mcb-curated-by-blockbird-exploring-historical-events-and-realities-of-cuban-life-that-have-since-1961-motivated-cubans-to-cross-the-90-miles-of-ocean-separating-havana-from-florida-3 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+._90-miles-desktop {
+  grid-column-gap: 6vw;
+  grid-row-gap: 6vw;
+  border: 0 solid #8b8b8b;
+  border-bottom-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.heading-3 {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.text-93 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 7.29167vw;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.text-94 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.14583vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-682 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 2.55208vw;
+  height: 2.55208vw;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-25 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: .78125vw;
+  max-width: none;
+  height: .78125vw;
+  display: flex;
+}
+
+.body-6 {
+  grid-column-gap: 193px;
+  grid-row-gap: 193px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 100%;
+  display: flex;
+}
+
+.right-3 {
+  grid-column-gap: 2.86458vw;
+  grid-row-gap: 2.86458vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 57.2917vw;
+  display: flex;
+}
+
+.text-95 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 2.5vw;
+  font-weight: 300;
+  line-height: 130%;
+  text-decoration: none;
+}
+
+.text-96 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.84vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-683 {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+}
+
+._13demarzo-15-10 {
+  object-fit: cover;
+  width: 30vw;
+  height: 30vw;
+}
+
+._13demarzo-15-10.big {
+  width: 57.2917vw;
+  height: 57.2917vw;
+}
+
+.these-cubans-are-incredibly-resourceful-as-necessary-to-the-journey-and-as-reflected-in-the-rafts-and-boats-often-assembled-from-inner-tubes-random-pieces-of-wood-and-plastic-household-supplies-etc-read-here-a-contextual-history-of-the-cuban-boat-people-written-by-nili-blanck-for-the-smithsonian-museum-2 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.87vw;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+._90-miles-is-a-post-photography-ai-reporting-project-by-mcb-curated-by-blockbird-exploring-historical-events-and-realities-of-cuban-life-that-have-since-1961-motivated-cubans-to-cross-the-90-miles-of-ocean-separating-havana-from-florida-4 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 130%;
+  text-decoration: underline;
+}
+
+.these-cubans-are-incredibly-resourceful-as-necessary-to-the-journey-and-as-reflected-in-the-rafts-and-boats-often-assembled-from-inner-tubes-random-pieces-of-wood-and-plastic-household-supplies-etc-read-here-a-contextual-history-of-the-cuban-boat-people-written-by-nili-blanck-for-the-smithsonian-museum-3 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.mcb-on-reporting-desktop {
+  grid-column-gap: 18.125vw;
+  grid-row-gap: 18.125vw;
+  border: 1px solid #8b8b8b;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-684 {
+  grid-column-gap: 4.6875vw;
+  grid-row-gap: 4.6875vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.text-97 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 7vw;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-685 {
+  grid-column-gap: 2.86458vw;
+  grid-row-gap: 2.86458vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-98 {
+  color: #f4f4f4;
+  width: 74%;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 2.48vw;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.i-first-experimented-with-ai-using-dall-e-and-later-midjourney-the-results-seemed-too-fantastical-but-with-midjourney-4-and-5-both-used-in-90-miles-that-impression-began-to-change-as-with-the-recent-imagery-of-trump-that-went-viral-the-imagery-is-now-more-believable-more-real-and-it-is-important-to-understand-how-society-may-both-create-barriers-around-the-technology-and-use-it-to-our-advantage-i-feel-similarly-to-fred-ritchin-the-founding-director-of-the-documentary-photography-and-photojournalism-program-at-the-international-center-of-photography-when-he-said-there-are-things-that-artificial-intelligence-can-add-to-the-image-equation-which-can-be-very-useful-and-that-s-the-place-we-have-to-look-2 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.text-99 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 2.51vw;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.text-100 {
+  color: #f4f4f4;
+  width: 100%;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 130%;
+  text-decoration: none;
+}
+
+.text-101 {
+  color: #f4f4f4;
+  width: 100%;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.these-cubans-are-incredibly-resourceful-as-necessary-to-the-journey-and-as-reflected-in-the-rafts-and-boats-often-assembled-from-inner-tubes-random-pieces-of-wood-and-plastic-household-supplies-etc-read-here-a-contextual-history-of-the-cuban-boat-people-written-by-nili-blanck-for-the-smithsonian-museum-4 {
+  color: #f4f4f4;
+  width: 45%;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.87vw;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.frame-686 {
+  grid-column-gap: 348px;
+  grid-row-gap: 348px;
+  border: 0 solid #8b8b8b;
+  border-bottom-width: 1px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-687 {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  display: flex;
+}
+
+.text-102 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 7.2vw;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-688 {
+  grid-column-gap: 193px;
+  grid-row-gap: 193px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1792px;
+  display: flex;
+}
+
+.frame-689 {
+  grid-column-gap: 120px;
+  grid-row-gap: 120px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+}
+
+.frame-690 {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-691 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1078px;
+  display: flex;
+}
+
+.text-103 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 2vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.text-104 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.text-105 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-692 {
+  grid-column-gap: .677083vw;
+  grid-row-gap: .677083vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.frame-693 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-3 {
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-4 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 180%;
+  text-decoration: underline;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-5 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 180%;
+  text-decoration: none;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-6 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 180%;
+  text-decoration: none;
+}
+
+.project-details-desktop {
+  grid-column-gap: 348px;
+  grid-row-gap: 348px;
+  border: 0 solid #8b8b8b;
+  border-bottom-width: 1px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-695 {
+  grid-column-gap: 6vw;
+  grid-row-gap: 6vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.text-106 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 7.29167vw;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-696 {
+  grid-column-gap: 6.25vw;
+  grid-row-gap: 6.25vw;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: none;
+  display: flex;
+}
+
+.frame-697 {
+  grid-column-gap: 120px;
+  grid-row-gap: 120px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 931px;
+  display: flex;
+}
+
+.frame-698 {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 48vw;
+  display: flex;
+}
+
+.frame-699 {
+  grid-column-gap: .416667vw;
+  grid-row-gap: .416667vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-107 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.text-108 {
+  color: #f4f4f4;
+  width: 100%;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.text-109 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-700 {
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.frame-701 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  display: flex;
+}
+
+._13demarzo-15-11 {
+  object-fit: cover;
+  width: 36vw;
+  height: 36vw;
+}
+
+._90-miles-is-a-post-photography-ai-reporting-project-by-mcb-curated-by-blockbird-exploring-historical-events-and-realities-of-cuban-life-that-have-since-1961-motivated-cubans-to-cross-the-90-miles-of-ocean-separating-havana-from-florida-5 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-8 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 180%;
+  text-decoration: underline;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-9 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 180%;
+  text-decoration: none;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-10 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.45833vw;
+  font-weight: 300;
+  line-height: 180%;
+  text-decoration: none;
+}
+
+.gallery-header-desktop {
+  grid-column-gap: 225px;
+  grid-row-gap: 225px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-703 {
+  grid-column-gap: 6vw;
+  grid-row-gap: 6vw;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.text-110 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 7.29167vw;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.frame-704 {
+  grid-column-gap: 52px;
+  grid-row-gap: 52px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+  display: flex;
+}
+
+.text-111 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.frame-705 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.text-112 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.25vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-706 {
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.text-113 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.25vw;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.frame-707 {
+  grid-column-gap: 28px;
+  grid-row-gap: 28px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-708 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.frame-709 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-114 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.14583vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-710 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: .416667vw 2.5vw;
+  display: flex;
+}
+
+.text-115 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.14583vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-711 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 2.55208vw;
+  height: 2.55208vw;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-26 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: .78125vw;
+  max-width: none;
+  height: .78125vw;
+  display: flex;
+}
+
+.preview-desktop {
+  grid-column-gap: 7.96875vw;
+  grid-row-gap: 7.96875vw;
+  background-color: #111112;
+  border: 1px #8b8b8b;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1920px;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.deepmind-dxtkv8qlay0-unsplash-4 {
+  object-fit: cover;
+  width: 47.7083vw;
+  height: 47.7083vw;
+}
+
+.frame-713 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 37.6563vw;
+  height: 47.7083vw;
+  display: flex;
+}
+
+.text-116 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 4.6875vw;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.text-117 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-714 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.text-118 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.14583vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-715 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 2.55208vw;
+  height: 2.55208vw;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-27 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: .78125vw;
+  max-width: none;
+  height: .78125vw;
+  display: flex;
+}
+
+.hero-desktop {
+  border: 0 solid #8b8b8b;
+  border-bottom-width: 1px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 100px 64px;
+  display: flex;
+}
+
+.frame-717 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 38.2813vw;
+  display: flex;
+}
+
+.text-119 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 6.25vw;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.anyone-with-a-discord-application-may-now-illustrate-a-lensless-photo-realistic-reportage-illustration-on-any-subject-anywhere-and-at-any-time-collaborating-with-a-collective-history-of-photography-to-illustrate-the-photographed-world-and-create-a-vision-of-what-was-is-or-can-be--mcb {
+  color: #f4f4f4;
+  width: 37.5521vw;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.text-120 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.14583vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-718 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 2.55208vw;
+  height: 2.55208vw;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-28 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: .78125vw;
+  max-width: none;
+  height: .78125vw;
+  display: flex;
+}
+
+.rectangle-5 {
+  object-fit: cover;
+  width: 37.6563vw;
+  height: 37.6563vw;
+}
+
+.anyone-with-a-discord-application-may-now-illustrate-a-lensless-photo-realistic-reportage-illustration-on-any-subject-anywhere-and-at-any-time-collaborating-with-a-collective-history-of-photography-to-illustrate-the-photographed-world-and-create-a-vision-of-what-was-is-or-can-be--mcb-0 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.anyone-with-a-discord-application-may-now-illustrate-a-lensless-photo-realistic-reportage-illustration-on-any-subject-anywhere-and-at-any-time-collaborating-with-a-collective-history-of-photography-to-illustrate-the-photographed-world-and-create-a-vision-of-what-was-is-or-can-be--mcb-1 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.image-7 {
+  width: 7.23958vw;
+}
+
+.link-block-17.w--current {
+  width: 7.2276vw;
+}
+
+.mint-desktop {
+  grid-column-gap: 0vw;
+  grid-row-gap: 0vw;
+  border: 1px solid #8b8b8b;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 5.20833vw 2.34375vw;
+  display: flex;
+}
+
+.frame-720 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 45.625vw;
+  max-width: 45.625vw;
+  height: 49.6354vw;
+  display: flex;
+}
+
+.text-121 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 6.25vw;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.text-122 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.25vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.text-123 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.45833vw;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.frame-721 {
+  grid-column-gap: 1.45833vw;
+  grid-row-gap: 1.45833vw;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.button-13 {
+  grid-column-gap: .416667vw;
+  grid-row-gap: .416667vw;
+  background-color: #f4f4f4;
+  border: 1px solid #08080d;
+  border-radius: 100px;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: .416667vw 2.5vw;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-124 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.14583vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-722 {
+  grid-column-gap: .729167vw;
+  grid-row-gap: .729167vw;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.text-125 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.14583vw;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.frame-723 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 2.55208vw;
+  height: 2.55208vw;
+  padding: .729167vw;
+  display: flex;
+}
+
+.vectors-wrapper-29 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: .78125vw;
+  max-width: none;
+  height: .78125vw;
+  display: flex;
+}
+
+.vectors-wrapper-30 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  flex: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 45vw;
+  max-width: none;
+  height: 45vw;
+  display: flex;
+}
+
+.checkbox-3 {
+  background-color: #0000;
+  width: .625vw;
+  height: .625vw;
+  margin-top: 0;
+  margin-left: -1.04167vw;
+}
+
+.read-here-for-a-brief-though-comprehensive-contextual-history-of-the-cuban-boat-people-written-by-nili-blanck-for-the-smithsonian-museum {
+  color: #f4f4f4;
+  text-align: left;
+  width: 100%;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 1.875vw;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.read-here-for-a-brief-though-comprehensive-contextual-history-of-the-cuban-boat-people-written-by-nili-blanck-for-the-smithsonian-museum-1 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.link-12, .link-13, .link-14, .link-15, .link-16 {
+  color: #f4f4f4;
+}
+
+.hero-mobile {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  border: 0 solid #8b8b8b;
+  border-bottom-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 40px 20px;
+  display: none;
+}
+
+.rectangle-6 {
+  object-fit: cover;
+}
+
+.frame-725 {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-126 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 90%;
+}
+
+.text-127 {
+  color: #f4f4f4;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.frame-726 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.frame-727 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-128 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.frame-728 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-31 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+
+.anyone-with-a-discord-application-may-now-illustrate-a-lensless-photo-realistic-reportage-illustration-on-any-subject-anywhere-and-at-any-time-collaborating-with-a-collective-history-of-photography-to-illustrate-the-photographed-world-and-create-a-vision-of-what-was-is-or-can-be--mcb-2 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.preview-mobile {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  background-color: #111112;
+  border: 1px solid #8b8b8b;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 40px 20px;
+  display: none;
+}
+
+.deepmind-dxtkv8qlay0-unsplash-5 {
+  object-fit: cover;
+}
+
+.frame-730 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-129 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.text-130 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.frame-731 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.frame-732 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-32 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+
+.mint-mobile {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  border: 1px solid #8b8b8b;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 40px 20px;
+  display: none;
+}
+
+.insideboats-8-4 {
+  object-fit: cover;
+}
+
+.text-131 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 90%;
+}
+
+.frame-734 {
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-132 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-133 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.frame-735 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.frame-736 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.frame-737 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-134 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.frame-738 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-33 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+
+.button-14 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: #f4f4f4;
+  border: 1px solid #08080d;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 8px 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.text-135 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.creator-info-mobile {
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+  background-color: #111112;
+  border: 1px solid #8b8b8b;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 40px 20px;
+  display: none;
+}
+
+.frame-740 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.insideboats-8-5 {
+  object-fit: cover;
+}
+
+.text-136 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.frame-741 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-137 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.frame-742 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-34 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+
+.social-links-4 {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.vectors-wrapper-35 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 25.6763px;
+  height: 31.3627px;
+  display: flex;
+}
+
+.ggrqo0jqzmeyvf-lsoqzi-2 {
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.vectors-wrapper-36 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 31px;
+  height: 29px;
+  display: flex;
+}
+
+.vectors-wrapper-37 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 33px;
+  display: flex;
+}
+
+.vectors-wrapper-38 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 29px;
+  display: flex;
+}
+
+.contact-mobile {
+  display: none;
+}
+
+.content-11 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.vectors-wrapper-39 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 198px;
+  height: 34.2441px;
+  display: flex;
+}
+
+.text-138 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-139 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.submit-button-2 {
+  color: #08080d;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 160%;
+  font-weight: 300;
+}
+
+.textarea-2 {
+  background-color: #0000;
+  border: 1px #000;
+  border-bottom: 1px solid #f4f4f4;
+  padding-top: 12px;
+  padding-bottom: 63px;
+  font-size: 150%;
+  font-weight: 300;
+}
+
+.field-label-2 {
+  color: #f4f4f4;
+  background-color: #0000;
+  font-size: 150%;
+  font-weight: 300;
+}
+
+.text-field-2 {
+  background-color: #0000;
+  border: 1px #000;
+  border-bottom: 1px solid #f4f4f4;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 150%;
+  font-weight: 300;
+}
+
+.checkbox-label-2 {
+  color: #f4f4f4;
+  font-size: 150%;
+  font-weight: 300;
+}
+
+.footer-mobile {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  background-color: #08080d;
+  border: 0 solid #8b8b8b;
+  border-top-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 40px 20px;
+  display: none;
+}
+
+.content-12 {
+  grid-column-gap: 64px;
+  grid-row-gap: 64px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.column-10 {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.content-13 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.social-links-5 {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.vectors-wrapper-40 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  display: flex;
+}
+
+.credits-3 {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.row-2 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.text-140 {
+  color: #f4f4f4;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.footer-links-3 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.gallery-header-mobile {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 40px 20px;
+  display: none;
+}
+
+.frame-744 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-141 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 90%;
+}
+
+.frame-745 {
+  grid-column-gap: 52px;
+  grid-row-gap: 52px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-142 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.text-143 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-144 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.frame-746 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.frame-747 {
+  grid-column-gap: 14px;
+  grid-row-gap: 14px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.frame-748 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-145 {
+  color: #08080d;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.frame-749 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 8px 48px;
+  display: flex;
+}
+
+.text-146 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.frame-750 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-41 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+
+._90-miles-is-a-post-photography-ai-reporting-project-by-mcb-curated-by-blockbird-exploring-historical-events-and-realities-of-cuban-life-that-have-since-1961-motivated-cubans-to-cross-the-90-miles-of-ocean-separating-havana-from-florida-6 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.link-17, .link-18 {
+  color: #f4f4f4;
+}
+
+.gallery-mobile {
+  display: none;
+}
+
+.frame-751 {
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+._13demarzo-15-12 {
+  object-fit: cover;
+}
+
+._90-miles-mobile {
+  display: none;
+}
+
+._90-miles-4 {
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  border: 0 solid #8b8b8b;
+  border-bottom-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 40px 20px;
+  display: none;
+}
+
+.heading-4 {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-147 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 90%;
+}
+
+.right-4 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.text-148 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.text-149 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+._13demarzo-15-13 {
+  object-fit: cover;
+}
+
+.read-here-for-a-brief-though-comprehensive-contextual-history-of-the-cuban-boat-people-written-by-nili-blanck-for-the-smithsonian-museum-2 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.frame-752 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  padding: 14px;
+  display: flex;
+}
+
+.vectors-wrapper-42 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+
+.read-here-for-a-brief-though-comprehensive-contextual-history-of-the-cuban-boat-people-written-by-nili-blanck-for-the-smithsonian-museum-3 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.mcb-on-reporting-mobile {
+  grid-column-gap: 348px;
+  grid-row-gap: 348px;
+  border: 1px solid #8b8b8b;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 40px 20px;
+  display: none;
+}
+
+.frame-753 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 2688px;
+  display: flex;
+}
+
+.text-150 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.text-151 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+._13demarzo-15-14 {
+  object-fit: cover;
+}
+
+.i-first-experimented-with-ai-in-2022-using-dall-e-the-outputs-were-initially-too-fantastical-but-with-midjourney-4-and-now-5-both-used-in-90-miles-that-impression-began-to-change-as-we-saw-with-the-viral-ai-imagery-of-trump-the-results-are-now-photo-realistic-enough-that-it-is-important-to-understand-how-society-and-journalism-may-both-create-barriers-around-the-technology-and-use-it-to-our-advantage-publications-such-as-the-new-york-times-and-the-new-yorker-have-for-decades-used-reportage-illustrations-of-various-kinds-alongside-reporting-to-illuminate-experiences-ideas-and-people-in-various-ways-while-expanding-our-idea-of-a-subject-reportage-illustrations-allow-for-fresh-connections-to-something-that-though-the-illustration-may-not-be-real-may-feel-true-ai-reportage-illustration-may-arguably-go-a-step-further-as-a-generated-image-created-from-hundreds-of-millions-of-photographs-may-feel-not-only-true-but-real {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.frame-754 {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.project-details-mobile {
+  grid-column-gap: 348px;
+  grid-row-gap: 348px;
+  border: 0 solid #8b8b8b;
+  border-bottom-width: 1px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 40px 20px;
+  display: none;
+}
+
+.frame-756 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 1613px;
+  display: flex;
+}
+
+._13demarzo-15-15 {
+  object-fit: cover;
+}
+
+.text-152 {
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.frame-757 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+}
+
+.text-153 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-154 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.text-155 {
+  color: #8b8b8b;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-11 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 180%;
+  text-decoration: none;
+}
+
+.superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-12 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 180%;
+  text-decoration: underline;
+}
+
+.frame-758 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: #111112;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 8px 24px;
+  display: flex;
+}
+
+.text-156 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.link-block-18, .link-block-19, .link-block-20, .link-block-21, .link-block-22, .link-block-23, .link-block-30, .link-block-31, .link-30 {
+  text-decoration: none;
+}
+
+.text-span-2, .text-span-3 {
+  color: #f4f4f4;
+  text-decoration: underline;
+}
+
+.link-31 {
+  text-decoration: none;
+}
+
+.link-32, .link-33, .link-36, .link-37, .link-38, .link-39, .link-40 {
+  color: #f4f4f4;
+}
+
+.image-8 {
+  width: 36vw;
+  height: 36vw;
+}
+
+.div-block-8 {
+  grid-column-gap: 90px;
+  grid-row-gap: 90px;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+
+.div-block-9 {
+  justify-content: space-between;
+  display: flex;
+}
+
+.div-block-10 {
+  grid-column-gap: 23.125vw;
+  grid-row-gap: 23.125vw;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.div-block-11 {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.link-42, .link-45 {
+  color: #f4f4f4;
+}
+
+.link-block-33 {
+  width: 2.29167vw;
+  height: 2.29167vw;
+}
+
+.link-46, .link-47 {
+  color: #f4f4f4;
+}
+
+.text-157 {
+  color: #f4f4f4;
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.link-block-34 {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+  .column {
+    width: 650px;
+  }
+
+  .vectors-wrapper {
+    width: 100%;
+  }
+
+  .text {
+    width: 100%;
+    font-size: 99%;
+    line-height: 150%;
+  }
+
+  .frame-19 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero {
+    grid-column-gap: 72px;
+    grid-row-gap: 72px;
+    flex-direction: column;
+  }
+
+  .div-block-2 {
+    width: 100%;
+  }
+
+  .frame-24 {
+    padding-left: 0;
+  }
+
+  .frame-25 {
+    width: 82%;
+    margin-left: 72px;
+  }
+
+  .frame-27 {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .navbar-2-2 {
+    display: none;
+    position: relative;
+  }
+
+  .column-6 {
+    grid-column-gap: 9px;
+    grid-row-gap: 9px;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  .frame-37.home {
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .text-24 {
+    border-radius: 0;
+    font-size: 6.15385vw;
+  }
+
+  .frame-39 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar {
+    z-index: 100;
+    position: sticky;
+    top: 0;
+  }
+
+  .frame-45 {
+    flex-wrap: wrap-reverse;
+  }
+
+  .deepmind-dxtkv8qlay0-unsplash-2 {
+    width: 100%;
+  }
+
+  .frame-46 {
+    padding: 72px;
+  }
+
+  .frame-48 {
+    flex-wrap: wrap;
+  }
+
+  .insideboats-8-2 {
+    display: none;
+  }
+
+  .row {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-37 {
+    font-size: 210%;
+  }
+
+  .contact-desktop {
+    flex-wrap: wrap;
+    display: none;
+  }
+
+  .content-5 {
+    justify-content: flex-start;
+    height: 100%;
+  }
+
+  .footer-desktop {
+    display: none;
+  }
+
+  .column-8, .content-8, .footer-links-2 {
+    flex-wrap: wrap;
+  }
+
+  .frame-56 {
+    flex-wrap: nowrap;
+  }
+
+  .frame-57 {
+    grid-column-gap: 54px;
+    grid-row-gap: 54px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .galery-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .gallery-item {
+    justify-content: center;
+    align-items: center;
+  }
+
+  ._13demarzo-15 {
+    width: 256px;
+    height: 250px;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .frame-61 {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+
+  .frame-621 {
+    width: 100%;
+  }
+
+  .gallery-preview-2 {
+    flex-direction: column-reverse;
+  }
+
+  .link-block.w--current {
+    border-radius: 100px;
+    width: 100%;
+  }
+
+  .link-block.mobile {
+    border-radius: 100px;
+    flex: 0 auto;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .form-item {
+    grid-column-gap: 63px;
+    grid-row-gap: 63px;
+  }
+
+  .checkbox-field {
+    align-items: center;
+  }
+
+  .div-block-3 {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding-left: 102px;
+    padding-right: 102px;
+    display: flex;
+  }
+
+  .div-block-4 {
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    display: flex;
+  }
+
+  .navbar-3 {
+    background-color: #0000;
+    width: 100%;
+  }
+
+  .nav-menu {
+    background-color: #0000;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .menu-button {
+    color: #f4f4f4;
+    background-color: #0000;
+  }
+
+  .menu-button.w--open {
+    background-color: #08080d;
+    border-radius: 0;
+  }
+
+  .nav-link, .nav-link-2, .nav-link-3 {
+    color: #f4f4f4;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .mobile-navbar {
+    z-index: 999;
+    background-color: #0000;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
+    display: block;
+    position: relative;
+  }
+
+  .image-5 {
+    text-align: center;
+    display: block;
+  }
+
+  .brand {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .brand.w--current {
+    width: 140px;
+    display: block;
+  }
+
+  .container-3 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    display: flex;
+  }
+
+  .icon {
+    color: #f4f4f4;
+  }
+
+  .menu-button-2, .menu-button-2.w--open {
+    background-color: #0000;
+    width: 60px;
+  }
+
+  .nav-menu-2 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    background-color: #08080d;
+    flex-flow: column;
+    flex: 0 auto;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 102px;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 300;
+    display: flex;
+    position: absolute;
+  }
+
+  .nav-link-4 {
+    color: #f4f4f4;
+    text-align: center;
+    background-color: #111112;
+    border: 1px solid #111112;
+    border-radius: 100px;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 8px 24px;
+    font-size: 6.15385vw;
+    font-weight: 300;
+    text-decoration: none;
+    display: flex;
+  }
+
+  .nav-link-4:hover {
+    border: 1px solid #f4f4f4;
+  }
+
+  .nav-link-4.mint-now-button {
+    color: #111112;
+    background-color: #f4f4f4;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .text-span {
+    color: #f4f4f4;
+    font-size: 5.89744vw;
+    line-height: 100%;
+  }
+
+  .text-span.mnbtn {
+    color: #111112;
+    line-height: 150%;
+  }
+
+  .frame-628, .frame-629, .frame-631 {
+    height: 100%;
+  }
+
+  .frame-635 {
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
+  .deepmind-dxtkv8qlay0-unsplash-3 {
+    width: 100%;
+  }
+
+  .frame-641 {
+    width: 100%;
+    padding: 27px;
+  }
+
+  .text-64 {
+    font-size: 450%;
+  }
+
+  .text-65 {
+    font-size: 180%;
+  }
+
+  .text-66, .text-67 {
+    font-weight: 300;
+  }
+
+  .div-block-5 {
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 27px 21px;
+    display: flex;
+    position: relative;
+  }
+
+  .creator-info-desktop, .gallery-desktop {
+    display: none;
+  }
+
+  .vectors-wrapper-21 {
+    width: 43.0769vw;
+    height: 43.0769vw;
+  }
+
+  ._90-miles-desktop, .mcb-on-reporting-desktop {
+    display: none;
+  }
+
+  .frame-693 {
+    grid-column-gap: 2.05128vw;
+    grid-row-gap: 2.05128vw;
+  }
+
+  .project-details-desktop {
+    display: none;
+  }
+
+  .frame-700 {
+    grid-column-gap: 3.33333vw;
+    grid-row-gap: 3.33333vw;
+  }
+
+  .gallery-header-desktop, .preview-desktop, .hero-desktop, .mint-desktop {
+    display: none;
+  }
+
+  .checkbox-3 {
+    width: 3vw;
+    height: 3vw;
+  }
+
+  .hero-mobile {
+    grid-column-gap: 6.15385vw;
+    grid-row-gap: 6.15385vw;
+    align-items: center;
+    padding: 10.2564vw 5.12821vw;
+    display: flex;
+  }
+
+  .rectangle-6 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .frame-725 {
+    grid-column-gap: 8.20513vw;
+    grid-row-gap: 8.20513vw;
+  }
+
+  .text-126 {
+    font-size: 13.8462vw;
+    font-weight: 300;
+  }
+
+  .frame-726 {
+    grid-column-gap: 3.58974vw;
+    grid-row-gap: 3.58974vw;
+  }
+
+  .frame-727 {
+    grid-column-gap: 2.5641vw;
+    grid-row-gap: 2.5641vw;
+    width: 100%;
+    padding: 2.05128vw 12.3077vw;
+    text-decoration: none;
+  }
+
+  .text-128 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  .text-128.span {
+    text-decoration: underline;
+  }
+
+  .frame-728 {
+    width: 12.5641vw;
+    height: 12.5641vw;
+    padding: 3.58974vw;
+  }
+
+  .vectors-wrapper-31 {
+    width: 3.84615vw;
+    max-width: none;
+    height: 3.84615vw;
+  }
+
+  .anyone-with-a-discord-application-may-now-illustrate-a-lensless-photo-realistic-reportage-illustration-on-any-subject-anywhere-and-at-any-time-collaborating-with-a-collective-history-of-photography-to-illustrate-the-photographed-world-and-create-a-vision-of-what-was-is-or-can-be--mcb-2 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .preview-mobile {
+    grid-column-gap: 6.15385vw;
+    grid-row-gap: 6.15385vw;
+    align-items: center;
+    padding: 10.2564vw 5.12821vw;
+    display: flex;
+  }
+
+  .deepmind-dxtkv8qlay0-unsplash-5 {
+    width: 89.7436vw;
+    height: 89.7436vw;
+  }
+
+  .frame-730 {
+    grid-column-gap: 6.15385vw;
+    grid-row-gap: 6.15385vw;
+  }
+
+  .text-129 {
+    font-size: 12.3077vw;
+    font-weight: 300;
+  }
+
+  .text-130 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .frame-732 {
+    width: 12.5641vw;
+    height: 12.5641vw;
+    padding: 3.58974vw;
+  }
+
+  .vectors-wrapper-32 {
+    width: 3.84615vw;
+    height: 3.84615vw;
+  }
+
+  .mint-mobile {
+    grid-column-gap: 6.15385vw;
+    grid-row-gap: 6.15385vw;
+    align-items: center;
+    padding: 10.2564vw 5.12821vw;
+    display: flex;
+  }
+
+  .insideboats-8-4 {
+    width: 89.7436vw;
+    height: 89.7436vw;
+  }
+
+  .text-131 {
+    font-size: 13.8462vw;
+    font-weight: 300;
+  }
+
+  .frame-734 {
+    grid-column-gap: 1.02564vw;
+    grid-row-gap: 1.02564vw;
+  }
+
+  .text-132 {
+    font-size: 4.61538vw;
+    font-weight: 300;
+  }
+
+  .text-133 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .frame-736 {
+    grid-column-gap: 3.58974vw;
+    grid-row-gap: 3.58974vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .frame-737 {
+    grid-column-gap: 2.5641vw;
+    grid-row-gap: 2.5641vw;
+    padding: 2.05128vw 12.3077vw;
+  }
+
+  .text-134 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .frame-738 {
+    width: 12.5641vw;
+    height: 12.5641vw;
+    padding: 3.58974vw;
+  }
+
+  .vectors-wrapper-33 {
+    width: 3.84615vw;
+    height: 3.84615vw;
+  }
+
+  .button-14 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 2.05128vw 12.3077vw;
+  }
+
+  .text-135 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .creator-info-mobile {
+    padding: 10.2564vw 5.12821vw;
+    display: flex;
+  }
+
+  .frame-740 {
+    grid-column-gap: 10.2564vw;
+    grid-row-gap: 10.2564vw;
+    align-items: center;
+    display: flex;
+  }
+
+  .insideboats-8-5 {
+    width: 89.7436vw;
+    height: 89.7436vw;
+  }
+
+  .text-136 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .frame-741 {
+    grid-column-gap: 2.5641vw;
+    grid-row-gap: 2.5641vw;
+    padding: 2.05128vw 12.3077vw;
+  }
+
+  .text-137 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .frame-742 {
+    grid-column-gap: 2.5641vw;
+    grid-row-gap: 2.5641vw;
+    width: 12.5641vw;
+    height: 12.5641vw;
+    padding: 3.58974vw;
+  }
+
+  .vectors-wrapper-34 {
+    width: 3.84615vw;
+    height: 3.84615vw;
+  }
+
+  .vectors-wrapper-35 {
+    width: 6.58366vw;
+    height: 8.04172vw;
+  }
+
+  .ggrqo0jqzmeyvf-lsoqzi-2 {
+    width: 7.94872vw;
+    height: 7.94872vw;
+  }
+
+  .vectors-wrapper-36 {
+    width: 7.94872vw;
+    height: 7.4359vw;
+  }
+
+  .vectors-wrapper-37 {
+    width: 8.20513vw;
+    height: 8.46154vw;
+  }
+
+  .vectors-wrapper-38 {
+    width: 8.20513vw;
+    height: 7.4359vw;
+  }
+
+  .contact-mobile {
+    grid-column-gap: 10.2564vw;
+    grid-row-gap: 10.2564vw;
+    flex-direction: column;
+    align-items: center;
+    padding: 10.2564vw 5.12821vw;
+    display: flex;
+  }
+
+  .text-138 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .text-139 {
+    font-size: 6.15385vw;
+    font-weight: 300;
+  }
+
+  .submit-button-2 {
+    padding: 5.12821vw 7.69231vw;
+    font-size: 5vw;
+  }
+
+  .textarea-2 {
+    color: #f4f4f4;
+    padding-bottom: 16.1538vw;
+  }
+
+  .field-label-2 {
+    font-size: 5.12821vw;
+  }
+
+  .text-field-2 {
+    color: #f4f4f4;
+    padding-bottom: 6.15385vw;
+    font-size: 5.12821vw;
+    line-height: 100%;
+  }
+
+  .footer-mobile {
+    display: flex;
+  }
+
+  .column-10 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vectors-wrapper-40 {
+    width: 11.2821vw;
+    height: 11.2821vw;
+  }
+
+  .text-140 {
+    font-size: 3.58974vw;
+    font-weight: 300;
+  }
+
+  .gallery-header-mobile {
+    display: flex;
+  }
+
+  .frame-744 {
+    align-items: center;
+    display: flex;
+  }
+
+  .text-141 {
+    width: 100%;
+    font-size: 13.8462vw;
+    font-weight: 300;
+  }
+
+  .text-142 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .text-143 {
+    font-size: 4.61538vw;
+    font-weight: 300;
+  }
+
+  .text-144 {
+    font-size: 6.15385vw;
+    font-weight: 300;
+  }
+
+  .text-145, .text-146 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .frame-750 {
+    width: 12.5641vw;
+    height: 12.5641vw;
+  }
+
+  .vectors-wrapper-41 {
+    width: 3.84615vw;
+    height: 3.84615vw;
+  }
+
+  .gallery-mobile {
+    grid-column-gap: 14px;
+    grid-row-gap: 14px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+  }
+
+  .frame-751 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  ._13demarzo-15-12 {
+    width: 43.0769vw;
+    height: 43.0769vw;
+  }
+
+  ._90-miles-4 {
+    display: flex;
+  }
+
+  .text-147 {
+    font-size: 13.8462vw;
+    font-weight: 300;
+  }
+
+  .right-4 {
+    align-items: center;
+  }
+
+  .text-148 {
+    font-size: 6.15385vw;
+    font-weight: 300;
+  }
+
+  .text-149 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  ._13demarzo-15-13 {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+  }
+
+  .read-here-for-a-brief-though-comprehensive-contextual-history-of-the-cuban-boat-people-written-by-nili-blanck-for-the-smithsonian-museum-2 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .frame-752 {
+    width: 12.5641vw;
+    height: 11vw;
+  }
+
+  .vectors-wrapper-42 {
+    width: 3.84615vw;
+    height: 3.84615vw;
+  }
+
+  .mobile-pic-big {
+    width: 100%;
+    height: 100%;
+  }
+
+  .link-19 {
+    color: #f4f4f4;
+  }
+
+  .mcb-on-reporting-mobile {
+    display: flex;
+  }
+
+  .frame-753 {
+    height: 100%;
+  }
+
+  .text-150 {
+    font-size: 12.3077vw;
+    font-weight: 300;
+  }
+
+  .text-151 {
+    font-size: 6.15385vw;
+    font-weight: 300;
+  }
+
+  ._13demarzo-15-14 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .i-first-experimented-with-ai-in-2022-using-dall-e-the-outputs-were-initially-too-fantastical-but-with-midjourney-4-and-now-5-both-used-in-90-miles-that-impression-began-to-change-as-we-saw-with-the-viral-ai-imagery-of-trump-the-results-are-now-photo-realistic-enough-that-it-is-important-to-understand-how-society-and-journalism-may-both-create-barriers-around-the-technology-and-use-it-to-our-advantage-publications-such-as-the-new-york-times-and-the-new-yorker-have-for-decades-used-reportage-illustrations-of-various-kinds-alongside-reporting-to-illuminate-experiences-ideas-and-people-in-various-ways-while-expanding-our-idea-of-a-subject-reportage-illustrations-allow-for-fresh-connections-to-something-that-though-the-illustration-may-not-be-real-may-feel-true-ai-reportage-illustration-may-arguably-go-a-step-further-as-a-generated-image-created-from-hundreds-of-millions-of-photographs-may-feel-not-only-true-but-real {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .link-20, .link-21 {
+    color: #f4f4f4;
+  }
+
+  .mobile-small-pic {
+    width: 100%;
+    height: 100%;
+  }
+
+  .project-details-mobile {
+    height: 100%;
+    display: flex;
+  }
+
+  .frame-756 {
+    align-items: center;
+    height: 100%;
+  }
+
+  ._13demarzo-15-15 {
+    width: 89.7436vw;
+    height: 89.7436vw;
+  }
+
+  .text-152 {
+    font-size: 13.8462vw;
+    font-weight: 300;
+  }
+
+  .frame-757 {
+    grid-column-gap: 6.15385vw;
+    grid-row-gap: 6.15385vw;
+    max-width: 89.7436vw;
+  }
+
+  .text-153 {
+    font-size: 4.61538vw;
+    font-weight: 300;
+  }
+
+  .text-154 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  .text-155 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-11 {
+    flex-flow: row;
+    width: 100%;
+    font-size: 5.12821vw;
+    font-weight: 300;
+    display: block;
+  }
+
+  .superrare-on-offer-via-artifact-gallery-foundation-partly-sold-5-per-piece-las-ondas-1-2-sold-33-per-piece-the-airport-sold-out-the-glass-house-sold-out-the-forest-people-sold-out-12 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .link-22, .link-23, .link-24, .link-25, .link-26, .link-27 {
+    color: #f4f4f4;
+  }
+
+  .div-block-6 {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    background-color: #0000;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    padding: 36px 20px 108px;
+    display: flex;
+  }
+
+  .div-block-7 {
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    display: flex;
+  }
+
+  .link-block-24, .link-block-25, .link-block-27 {
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .link-block-28 {
+    text-decoration: none;
+  }
+
+  .link-block-29 {
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .link-28 {
+    color: #f4f4f4;
+    text-decoration: none;
+  }
+
+  .link-block-32 {
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .link-29 {
+    color: #f4f4f4;
+    text-decoration: underline;
+  }
+
+  .link-30 {
+    text-decoration: none;
+  }
+
+  .link-34, .link-35, .link-41 {
+    color: #f4f4f4;
+  }
+
+  .image-9 {
+    width: 100%;
+  }
+
+  .link-43, .link-44, .link-46, .link-47 {
+    color: #f4f4f4;
+  }
+
+  .text-157 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .link-block-35 {
+    width: 100%;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .frame-39 {
+    flex-wrap: wrap;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .frame-44 {
+    width: 100%;
+  }
+
+  .frame-47 {
+    flex-wrap: wrap;
+  }
+
+  .text-37 {
+    font-size: 210%;
+  }
+
+  .footer-desktop {
+    flex-wrap: wrap;
+  }
+
+  .column-8 {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ._13demarzo-15 {
+    width: 256px;
+  }
+
+  ._90-miles-2 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .heading {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .text-49 {
+    font-size: 540%;
+  }
+
+  .frame-61 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frame-621 {
+    width: 100%;
+  }
+
+  .gallery-preview-2 {
+    flex-flow: column-reverse wrap;
+  }
+
+  .text-54, .text-55 {
+    font-size: 120%;
+    font-weight: 300;
+  }
+
+  .frame-626 {
+    justify-content: center;
+  }
+
+  .form-item {
+    grid-column-gap: 21px;
+    grid-row-gap: 21px;
+  }
+
+  .checkbox-field {
+    align-items: center;
+  }
+
+  .navbar-3 {
+    width: 100%;
+  }
+
+  .nav-menu {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: static;
+    inset: 0% auto 0% 0%;
+  }
+
+  .nav-link-4.mint-now-button {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .frame-635 {
+    flex-wrap: wrap;
+  }
+
+  .vectors-wrapper-20 {
+    width: 100%;
+    height: 12%;
+  }
+
+  .rectangle-6 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .link-block-25, .link-block-27 {
+    width: 100%;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .frame-27 {
+    align-content: stretch;
+    height: 100%;
+    padding: 21px 12px;
+  }
+
+  .frame-37.home {
+    transition: opacity .2s;
+  }
+
+  .frame-39 {
+    padding: 18px 19px;
+  }
+
+  .frame-40 {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .frame-44 {
+    width: 100%;
+    height: 480px;
+  }
+
+  .frame-45 {
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+  }
+
+  .frame-46 {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding: 9px;
+  }
+
+  .frame-47 {
+    flex-wrap: wrap;
+  }
+
+  .frame-48 {
+    padding: 30px 9px;
+  }
+
+  .frame-54 {
+    padding: 9px;
+  }
+
+  .frame-55 {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .text-36 {
+    font-size: 660%;
+  }
+
+  .text-37 {
+    font-size: 210%;
+  }
+
+  .contact {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact-desktop {
+    flex-wrap: wrap;
+    padding: 30px 12px;
+    display: none;
+  }
+
+  .text-38 {
+    font-size: 300%;
+  }
+
+  .footer-desktop {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 27px;
+    display: none;
+  }
+
+  .content-7, .column-8 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frame-56 {
+    padding: 54px 15px;
+  }
+
+  .frame-57 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .text-41 {
+    font-size: 630%;
+  }
+
+  .galery-wrapper {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .heading {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .text-49 {
+    font-size: 360%;
+    line-height: 120%;
+  }
+
+  .mcb-on-reporting {
+    padding: 45px 12px;
+  }
+
+  .frame-621 {
+    width: 100%;
+  }
+
+  .gallery-preview-2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .frame-622 {
+    flex-wrap: wrap;
+    place-content: stretch flex-start;
+    align-items: flex-start;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .link-block-6, .link-block-11 {
+    display: none;
+  }
+
+  .form-block {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .form-item {
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+  }
+
+  .checkbox-field {
+    align-items: center;
+  }
+
+  .nav-menu-2 {
+    height: 100vh;
+    margin-top: 26.1538vw;
+  }
+
+  .frame-628 {
+    padding: 27px 12px;
+  }
+
+  .frame-629 {
+    width: 100%;
+  }
+
+  .creator-info-desktop {
+    display: none;
+  }
+
+  .content-10 {
+    height: 100%;
+  }
+
+  .vectors-wrapper-20 {
+    width: 100%;
+    height: 12%;
+  }
+
+  .preview-desktop, .mint-desktop {
+    display: none;
+  }
+
+  .frame-728 {
+    width: 12.5641vw;
+    height: 12vw;
+  }
+
+  .vectors-wrapper-31 {
+    width: 3.84615vw;
+  }
+
+  .text-129 {
+    font-size: 12.3077vw;
+    font-weight: 300;
+  }
+
+  .text-130 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .frame-732 {
+    width: 12.5641vw;
+    height: 12vw;
+  }
+
+  .vectors-wrapper-32 {
+    width: 3.84615vw;
+    max-width: none;
+    height: 3.84615vw;
+  }
+
+  .insideboats-8-4 {
+    width: 89.4359vw;
+    height: 89.4359vw;
+  }
+
+  .text-131 {
+    font-size: 13.8462vw;
+    font-weight: 300;
+  }
+
+  .text-132 {
+    font-size: 4.61538vw;
+    font-weight: 300;
+  }
+
+  .text-133, .text-134 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .frame-738 {
+    width: 12.5641vw;
+    height: 13vw;
+  }
+
+  .vectors-wrapper-33 {
+    width: 3.84615vw;
+    max-width: none;
+    height: 3.84615vw;
+  }
+
+  .text-135 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .insideboats-8-5 {
+    width: 89.4359vw;
+    height: 89.7436vw;
+  }
+
+  .text-136, .text-137 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .frame-742 {
+    width: 12.5641vw;
+    height: 12vw;
+  }
+
+  .vectors-wrapper-34 {
+    width: 3.84615vw;
+    max-width: none;
+    height: 3.84615vw;
+  }
+
+  .vectors-wrapper-35 {
+    width: 6.58366vw;
+    height: 8.04172vw;
+  }
+
+  .ggrqo0jqzmeyvf-lsoqzi-2 {
+    width: 7.94872vw;
+    height: 7.94872vw;
+  }
+
+  .vectors-wrapper-36 {
+    width: 7.94872vw;
+    height: 7.4359vw;
+  }
+
+  .vectors-wrapper-37 {
+    width: 8.20513vw;
+    height: 8.46154vw;
+  }
+
+  .contact-mobile {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 40px 20px;
+    display: flex;
+  }
+
+  .content-11 {
+    padding: 0;
+  }
+
+  .vectors-wrapper-39 {
+    width: 50.7693vw;
+    height: 100%;
+  }
+
+  .text-138 {
+    font-size: 5.12821vw;
+    font-weight: 300;
+  }
+
+  .text-139 {
+    font-size: 6.15385vw;
+    font-weight: 300;
+  }
+
+  .submit-button-2 {
+    padding: 8px 48px;
+    font-size: 5.12821vw;
+  }
+
+  .textarea-2, .field-label-2 {
+    font-size: 5.12821vw;
+  }
+
+  .checkbox-label-2 {
+    font-size: 4.10256vw;
+  }
+
+  .frame-744 {
+    align-items: flex-start;
+  }
+
+  .gallery-mobile {
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  ._13demarzo-15-12 {
+    width: 133px;
+  }
+
+  .div-block-6 {
+    height: 100%;
+    padding-top: 0;
+  }
+
+  .div-block-7 {
+    align-items: flex-end;
+    height: 90vh;
+  }
+}
+
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('../fonts/NeueHaasDisplayBlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('../fonts/NeueHaasDisplayBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('../fonts/NeueHaasDisplayBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('../fonts/NeueHaasDisplayBoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('../fonts/NeueHaasDisplayLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('../fonts/NeueHaasDisplayLightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('../fonts/NeueHaasDisplayThin.ttf') format('truetype'), url('../fonts/NeueHaasDisplayXThin.ttf') format('truetype'), url('../fonts/NeueHaasDisplayXXThin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('../fonts/NeueHaasDisplayRomanItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('../fonts/NeueHaasDisplayThinItalic.ttf') format('truetype'), url('../fonts/NeueHaasDisplayXXThinItalic.ttf') format('truetype'), url('../fonts/NeueHaasDisplayXThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('../fonts/NeueHaasDisplayMediu.ttf') format('truetype'), url('../fonts/NeueHaasDisplayRoman.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('../fonts/NeueHaasDisplayMediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
