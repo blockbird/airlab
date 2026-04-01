@@ -1,3 +1,14 @@
+const formEndpoint = [
+  "https://formsubmit.co/ajax/",
+  "gl",
+  "en",
+  "@",
+  "block",
+  "bird",
+  ".",
+  "co",
+].join("");
+
 document.querySelectorAll("[data-contact-form]").forEach((form) => {
   const wrapper = form.closest(".w-form");
   const success = wrapper ? wrapper.querySelector(".w-form-done") : null;
@@ -25,7 +36,7 @@ document.querySelectorAll("[data-contact-form]").forEach((form) => {
     formData.append("page", window.location.href);
 
     try {
-      const response = await fetch(form.action, {
+      const response = await fetch(formEndpoint, {
         method: "POST",
         headers: {
           Accept: "application/json",
